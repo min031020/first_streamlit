@@ -12,9 +12,9 @@ if st.button("제출"):
     if answer1 == "서울":
         st.success("정답입니다!")
     else:
-        st.error("틀렸습니다. 정답은 서울입니다.")
+        st.error("틀렸습니다. 정답은 '서울'입니다.")
     if answer2 == "streamlit":
         st.success("정답입니다")
     else:
-        st.error("틀렸습니다. 정답은 streamlit입니다.")
+        st.error("틀렸습니다. 정답은 'streamlit'입니다.")
         
